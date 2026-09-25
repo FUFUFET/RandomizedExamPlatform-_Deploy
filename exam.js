@@ -12,6 +12,7 @@ const reviewContainer = document.getElementById("review-container");
 const reviewHeading = document.getElementById("review-heading");
 const backToExamButton = document.getElementById("back-to-exam");
 const submitExamButton = document.getElementById("submit-exam");
+let movingToQuestion = false;
 
 reviewHeading.setAttribute("tabindex", "-1");
 
@@ -272,11 +273,14 @@ function renderReview() {
     questionLink.addEventListener("click", (event) => {
       event.preventDefault();
 
+      movingToQuestion = true;
+
       reviewDialog.close();
 
       currentIndex = i;
 
       renderQuestion(true);
+
       renderNav();
     });
 
@@ -364,6 +368,12 @@ submitExamButton.addEventListener("click", () => {
 // ------------------------------
 
 reviewDialog.addEventListener("close", () => {
+  if (movingToQuestion) {
+    movingToQuestion = false;
+
+    return;
+  }
+
   const reviewButton = document.querySelector(
     "#nav-container button:last-child",
   );
