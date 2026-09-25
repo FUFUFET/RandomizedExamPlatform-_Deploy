@@ -30,7 +30,9 @@ async function loadExam() {
 
       localStorage.removeItem("returnToQuestion");
     } else {
-      const res = await fetch("https://randomizedexamplatform-deploy-1g5u.onrender.com", {
+      const API = "https://randomizedexamplatform-deploy-1g5u.onrender.com";
+
+      const res = await fetch(`${API}/exam/start`, {
         method: "POST",
       });
 
