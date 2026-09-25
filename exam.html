@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Exam</title>
+  </head>
+
+  <body>
+    <main>
+      <form>
+        <div id="question-container"></div>
+      </form>
+
+      <nav id="nav-container"></nav>
+    </main>
+
+    <dialog id="review-dialog" aria-labelledby="review-heading">
+      <h2 id="review-heading">Review your answers</h2>
+
+      <div id="review-container"></div>
+
+      <div id="review-actions">
+        <button type="button" id="back-to-exam">Back to Exam</button>
+
+        <button type="button" id="submit-exam">Submit</button>
+      </div>
+    </dialog>
+
+    <script src="exam.js" defer></script>
+  </body>
+</html>

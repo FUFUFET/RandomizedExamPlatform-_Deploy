@@ -1,0 +1,32 @@
+[
+  {
+    "id": 3,
+    "question": "Which country is famous for sushi?",
+    "options": ["Japan", "Thailand", "South Korea", "China", "Vietnam"],
+    "answer": 0
+  },
+  {
+    "id": 4,
+    "question": "Which ingredient is the main ingredient in traditional guacamole?",
+    "options": ["Tomato", "Avocado", "Potato", "Cucumber", "Carrot"],
+    "answer": 1
+  },
+  {
+    "id": 5,
+    "question": "Which is the largest ocean on Earth?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Southern Ocean",
+      "Pacific Ocean"
+    ],
+    "answer": 4
+  },
+  {
+    "id": 6,
+    "question": "Which country is home to the Great Barrier Reef?",
+    "options": ["Australia", "Brazil", "South Africa", "Mexico", "Indonesia"],
+    "answer": 0
+  }
+]
