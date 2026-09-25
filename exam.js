@@ -30,7 +30,7 @@ async function loadExam() {
 
       localStorage.removeItem("returnToQuestion");
     } else {
-      const res = await fetch("http://localhost:3000/exam/start", {
+      const res = await fetch("https://randomizedexamplatform-deploy-1g5u.onrender.com", {
         method: "POST",
       });
 
