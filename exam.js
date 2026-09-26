@@ -238,7 +238,7 @@ function renderReview() {
   for (let i = 0; i < questions.length; i++) {
     const question = questions[i];
 
-    const wrapper = document.createElement("section");
+    const wrapper = document.createElement("div");
 
     const heading = document.createElement("h3");
 
