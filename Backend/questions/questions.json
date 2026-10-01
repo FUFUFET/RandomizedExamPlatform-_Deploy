@@ -1,9 +1,16 @@
 [
   {
     "id": 3,
-    "question": "Which country is famous for sushi?",
-    "options": ["Japan", "Thailand", "South Korea", "China", "Vietnam"],
-    "answer": 0
+    "question": "Which of the following rappers is originally from Atlanta, Georgia?",
+    "options": [
+      "Kendrick Lamar",
+      "GloRilla",
+      "Eminem",
+      "Future",
+      "Kenye West",
+      "Cardi B"
+    ],
+    "answer": 3
   },
   {
     "id": 4,
@@ -13,15 +20,15 @@
   },
   {
     "id": 5,
-    "question": "Which is the largest ocean on Earth?",
+    "question": "Who is the richest person in the world as of today (September 30th, 2026)?",
     "options": [
-      "Atlantic Ocean",
-      "Indian Ocean",
-      "Arctic Ocean",
-      "Southern Ocean",
-      "Pacific Ocean"
+      "Jeff Bezos",
+      "Elon Musk",
+      "Donald Trump",
+      "Bill Gates",
+      "Warren Buffett"
     ],
-    "answer": 4
+    "answer": 1
   },
   {
     "id": 6,
